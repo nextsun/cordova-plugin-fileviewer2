@@ -1,14 +1,14 @@
 var exec = require('cordova/exec');
 
-function FileViewer() {}
+function FileViewer2() {}
 
-FileViewer.prototype.open = function (fileName, callbackContext) {
+FileViewer2.prototype.open = function (fileName, callbackContext) {
 callbackContext = callbackContext || {};
-exec(callbackContext.success || null, callbackContext.error || null, 'FileViewer', 'open', [fileName]);
+exec(callbackContext.success || null, callbackContext.error || null, 'FileViewer2', 'open', [fileName]);
 };
 
-FileViewer.prototype.dismiss = function () {
- exec(null,null, 'FileViewer', 'dismiss', []);
+FileViewer2.prototype.dismiss = function () {
+ exec(null,null, 'FileViewer2', 'dismiss', []);
 };
 
-module.exports =  new FileViewer();
+module.exports =  new FileViewer2();

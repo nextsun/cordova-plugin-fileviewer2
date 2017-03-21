@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="cordova-plugin-fileviewer" version="1.0.0">
-    <name>FileViewer</name>
+        id="cordova-plugin-fileviewer2" version="1.0.0">
+    <name>FileViewer2</name>
     <description>Preview Files in iOS Device with QuickLook Framework</description>
     <license>MIT</license>
-    <js-module src="www/fileviewer.js" name="FileViewer">
-        <clobbers target="fileviewer" />
+    <js-module src="www/fileviewer2.js" name="FileViewer2">
+        <clobbers target="fileviewer2" />
     </js-module>
 
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="FileViewer">
-                <param name="ios-package" value="LSFileViewer"/>
+            <feature name="FileViewer2">
+                <param name="ios-package" value="LSFileViewer2"/>
             </feature>
         </config-file>
-        <header-file src="src/ios/LSFileViewer.h" />
-        <source-file src="src/ios/LSFileViewer.m" />
+        <header-file src="src/ios/LSFileViewer2.h" />
+        <source-file src="src/ios/LSFileViewer2.m" />
         <header-file src="src/ios/LSPreviewController.h" />
         <source-file src="src/ios/LSPreviewController.m" />
     </platform>
