@@ -25,7 +25,7 @@ npm install -g cordova
 open a file 
 
 ```
-fileviewer.open(cordova.file.documentsDirectory+'test.zip',{ 
+fileviewer.open(cordova.file.documentsDirectory+'test.png',{ 
         error : function(e) { 
             console.log('Error status: ' + e.status + ' - Error message: ' + e.message);
         },
