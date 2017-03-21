@@ -1,6 +1,6 @@
 # Cordova File Preview Plugin
 
-This plugin will open a file on your device file system for preview.
+This plugin can preview local files on your iOS device.
 
 ## Supported Platforms
 

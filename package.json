@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-fileviewer2",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Preview Files in iOS Device with QuickLook Framework",
   "cordova": {
     "id": "cordova-plugin-fileviewer2",
