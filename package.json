@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-fileviewer",
+  "version": "1.0.0",
+  "description": "Preview Files in iOS Device with QuickLook Framework",
+  "cordova": {
+    "id": "cordova-plugin-fileviewer",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nextsun/cordova-plugin-fileviewer.git"
+  },
+  "keywords": [
+    "cordova",
+    "fileview",
+    "preview",
+    "fileviewer",
+    "fileopener",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "author": "Lei Sun (http://weibo.com/nextsun)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nextsun/cordova-plugin-fileviewer/issues"
+  },
+  "homepage": "https://github.com/nextsun/cordova-plugin-fileviewer"
+}
